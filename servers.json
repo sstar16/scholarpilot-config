@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": "2026-05-18T00:00:00Z",
+  "min_client_version": null,
+  "servers": [
+    {
+      "id": "hk-prod-1",
+      "region": "HK",
+      "label": "香港主节点",
+      "base_url": "https://api.scholarpilot.top",
+      "ping_path": "/ping",
+      "priority": 1,
+      "enabled": true,
+      "tags": ["primary"]
+    }
+  ]
+}
