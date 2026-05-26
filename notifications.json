@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "updated_at": "2026-05-26T08:00:00Z",
+  "entries": [
+    {
+      "id": "2026-05-26-welcome",
+      "title": "欢迎使用 ScholarPilot 通知中心",
+      "summary": "新版本起,顶栏右上角的铃铛会显示官方通知。",
+      "file": "notifications/2026-05-26-welcome.md",
+      "pub_date": "2026-05-26T08:00:00Z",
+      "priority": "normal",
+      "pinned": false
+    }
+  ]
+}
