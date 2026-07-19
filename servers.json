@@ -1,17 +1,27 @@
 {
   "version": 1,
-  "updated_at": "2026-05-18T00:00:00Z",
+  "updated_at": "2026-07-19T14:12:28Z",
   "min_client_version": null,
   "servers": [
     {
-      "id": "hk-prod-1",
-      "region": "HK",
-      "label": "香港主节点",
-      "base_url": "https://api.scholarpilot.top",
+      "id": "chg-prod-1",
+      "region": "CHG",
+      "label": "CHG 主节点",
+      "base_url": "https://api-chg.scholarpilot.top",
       "ping_path": "/ping",
       "priority": 1,
       "enabled": true,
-      "tags": ["primary"]
+      "tags": ["primary", "compute"]
+    },
+    {
+      "id": "dubai-prod-1",
+      "region": "DXB",
+      "label": "Dubai 备用节点",
+      "base_url": "https://api-dubai.scholarpilot.top",
+      "ping_path": "/ping",
+      "priority": 2,
+      "enabled": true,
+      "tags": ["relay", "failover"]
     }
   ]
 }
